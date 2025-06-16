@@ -1,0 +1,45 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+.outer{
+    display : flex;
+    flex-direction: column;
+    gap : 40px;
+    padding : 30px;
+    border-radius : 10px;
+    box-shadow: 5px 5px 10px 0px black;
+    background-color: white;
+    border : 2px solid black;
+    width : 30%;
+    align-items : center;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+
+.innerText{
+    font-size : 32px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.innerBtn{
+    width : 100%;
+}
+#clickMe{
+    border-radius : 10px;
+    background : black;
+    color : white;
+    padding : 10px;
+    font-size : 20px;
+    width : 100%;
+}
+
+@media (max-width : 880px){
+    .outer{
+        width : 55%;
+    }
+}

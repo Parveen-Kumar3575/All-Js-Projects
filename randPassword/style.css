@@ -1,0 +1,83 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    background-color: rgb(146, 237, 8);
+}
+.container{
+    display: flex;
+    flex-direction : column;
+    gap : 20px;
+    background-color: rgb(4, 107, 4);
+    color : white;
+    margin : 150px auto;
+    width : 40%;
+    border-radius : 20px;
+    padding : 40px;
+     box-shadow: 5px 5px 10px 0 black;
+}
+
+label{
+    font-size : 21px;
+}
+.generate{
+    padding : 20px;
+    font-size : 20px;
+    background : black;
+    color : white;
+    border-radius : 10px;
+}
+
+.passField{
+    font-size : 30px;
+    padding : 5px;
+    border-radius : 15px;
+}
+.container button{
+    width : 60%;
+    margin : 0px auto;
+}
+
+#leng{
+    font-size : 20px;
+    border-radius : 10px;
+    width : 20%;
+}
+.container div{
+    display: flex;
+    justify-content: space-between;
+}
+.container:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+
+@media (max-width : 515px){
+    label{
+        font-size : 18px;
+    }
+    .generate{
+        font-size: 16px;
+        padding : 12px;
+    }
+    .container{
+        width : 60%;
+        
+        /* padding : 20px; */
+    }
+
+    /* .container div{
+
+    } */
+}
+
+@media (max-width : 315px){
+    .container{
+        width : 80%;
+        padding : 20px;
+        margin : 60px auto;
+    }
+}
