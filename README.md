@@ -10,6 +10,21 @@ Each project showcases basic-to-intermediate use of **HTML**, **CSS**, and **Jav
 
 ## 📂 Projects Included
 
+### ✊🖐✌ Project: Rock Paper Scissors  
+**Description**: A classic rock-paper-scissors game against the computer. Focuses on conditionals, event handling, and generating random choices.
+
+---
+
+### ❌⭕ Project: Tic Tac Toe  
+**Description**: A two-player tic-tac-toe game with win detection and game reset. Emphasizes array logic, DOM updates, and responsive UI design.
+
+---
+
+### 🧮 Project: Calculator  
+**Description**: A functional calculator supporting basic arithmetic operations. Reinforces number input handling, dynamic display updates, and clean UI layout.
+
+---
+
 ### 🔤 Project: autoType  
 **Description**: Simulates a typewriter effect — text appears one character at a time. Great for intros or animated headers.
 
