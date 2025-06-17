@@ -66,3 +66,99 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+@media (max-width: 1024px) {
+  .choice {
+    height: 120px;
+    width: 120px;
+  }
+
+  img {
+    height: 110px;
+    width: 110px;
+  }
+
+  .choices {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .score-board {
+    gap: 3rem;
+    font-size: 1.8rem;
+  }
+
+  #user-score,
+  #comp-score {
+    font-size: 3rem;
+  }
+
+  #msg {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .choice {
+    height: 100px;
+    width: 100px;
+  }
+
+  img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .score-board {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  #user-score,
+  #comp-score {
+    font-size: 2.5rem;
+  }
+
+  #msg {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    height: 4rem;
+  }
+
+  .choice {
+    height: 80px;
+    width: 80px;
+  }
+
+  img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .choices {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .score-board {
+    font-size: 1.5rem;
+  }
+
+  #user-score,
+  #comp-score {
+    font-size: 2rem;
+  }
+
+  #msg {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
+
